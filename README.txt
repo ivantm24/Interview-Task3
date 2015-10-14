@@ -1,25 +1,21 @@
-Welcome!
+# Welcome!
 
-If you choose to accept the task before you Congratulations!
+### If you choose to accept the task before you Congratulations!
 
 This exercise is fairly simple, but will allow you to showcase your
-programming, research and algorithm skills. You will need to write two methods loadData() and find() for
-a program that finds zip codes of people by searching on the first N letters
-of their last names.
+programming, research and algorithm skills. You will need to write two methods loadData() and find() for a program that finds zip codes of people by searching on the first N letters of their last names.
 
 For instance, let's say you wanted all the zip codes for all the people who's
 last name starts with 'J', or "Jo" or 'Sm', as in "Smith", "Smarts" or "Smalls".
 
 In this zip you will find three classes:
 
-  Main.java
-  AbstractUserZipCodeFinder.java
-  UserZipCodeFinder.java
+  - Main.java
+  - AbstractUserZipCodeFinder.java
+  - UserZipCodeFinder.java
+- and a datafile dataFile.csv
 
-and a datafile dataFile.csv
-
-The dataFile.csv contains a large set of Last names and corresponding zip codes, and the Main,
-and AbstractUserZipCodeFinder have boilerplate code already written to run tests on the code you will write.
+The dataFile.csv contains a large set of Last names and corresponding zip codes, and the Main, and AbstractUserZipCodeFinder have boilerplate code already written to run tests on the code you will write.
 
 IMPORTANT: The dataFile.csv does contain duplicate last names and zip code pairs! (After all, there are many people in
 the same zip code with the same last name) You should be prepared to account for this.
