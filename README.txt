@@ -1,6 +1,6 @@
-# Welcome!
+<h1>Welcome!<h1>
 
-### If you choose to accept the task before you Congratulations!
+<h3>If you choose to accept the task before you Congratulations!</h3>
 
 This exercise is fairly simple, but will allow you to showcase your
 programming, research and algorithm skills. You will need to write two methods loadData() and find() for a program that finds zip codes of people by searching on the first N letters of their last names.
@@ -10,11 +10,12 @@ last name starts with 'J', or "Jo" or 'Sm', as in "Smith", "Smarts" or "Smalls".
 
 In this zip you will find three classes:
 
-  - Main.java
-  - AbstractUserZipCodeFinder.java
-  - UserZipCodeFinder.java
-- and a datafile dataFile.csv
-
+<ul>
+  <li>Main.java</li>
+  <li>AbstractUserZipCodeFinder.java</li>
+  <li>UserZipCodeFinder.java</li>
+<li>and a datafile dataFile.csv</li>
+</ul>
 The dataFile.csv contains a large set of Last names and corresponding zip codes, and the Main, and AbstractUserZipCodeFinder have boilerplate code already written to run tests on the code you will write.
 
 IMPORTANT: The dataFile.csv does contain duplicate last names and zip code pairs! (After all, there are many people in
@@ -45,5 +46,4 @@ Searching for names that start with 'Perkins' returned 234 results and took 0ms
 ------------------------------
 
 
-If you have any issues getting started or questions please don't hesistate to reach out to me. I am happy to also help
-you setup this project in Intellij and walk you through how to run it.
+If you have any issues getting started or questions please don't hesistate to reach out to me. I am happy to also help you setup this project in Intellij and walk you through how to run it.
