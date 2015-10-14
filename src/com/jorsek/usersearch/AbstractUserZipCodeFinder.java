@@ -2,6 +2,7 @@ package com.jorsek.usersearch;
 
 import java.io.File;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by caseyjordan on 10/13/15.
@@ -30,8 +31,8 @@ public abstract class AbstractUserZipCodeFinder {
     List startsWithA = find(startsWith);
     long endTime = System.nanoTime();
 
-    long duration = (endTime - startTime)/1000000;
-    System.out.println("Searching for names that start with '"+startsWith+"' returned " + startsWithA.size() + " results and took " + duration + "ms");
+    long duration = TimeUnit.MICROSECONDS.convert((endTime - startTime), TimeUnit.NANOSECONDS);
+    System.out.println("Searching for names that start with '"+startsWith+"' returned " + startsWithA.size() + " results and took " + duration + " micro-seconds");
   }
 
 }

@@ -9,7 +9,7 @@ public class Main {
         File file = new File("dataFile.csv");
 
         /* NO NEED TO MODIFY ANYTHING PAST HERE */
-        AbstractUserZipCodeFinder zipCodeFinder = new UserZipCodeFinder();
+        AbstractUserZipCodeFinder zipCodeFinder = new CaseysZipCodeFinder();
         zipCodeFinder.loadData(file);
         zipCodeFinder.runTests();
 

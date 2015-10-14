@@ -32,15 +32,15 @@ For instance, I wrote an implementation of loadData() and find() and here are my
 results from running Main on my 2015 MacBook Pro running in debug mode through Intellij IDEA:
 
 
-Searching for names that start with '' returned 399287 results and took 55ms
-Searching for names that start with 'A' returned 12721 results and took 1ms
-Searching for names that start with 'B' returned 39652 results and took 4ms
-Searching for names that start with 'Ba' returned 8584 results and took 0ms
-Searching for names that start with 'Jo' returned 2199 results and took 0ms
-Searching for names that start with 'Smi' returned 475 results and took 0ms
-Searching for names that start with 'Bra' returned 2363 results and took 0ms
-Searching for names that start with 'P' returned 20481 results and took 1ms
-Searching for names that start with 'Perkins' returned 234 results and took 0ms
+Searching for names that start with '' returned 600001 results and took 42115 micro-seconds
+Searching for names that start with 'A' returned 19728 results and took 1661 micro-seconds
+Searching for names that start with 'B' returned 55608 results and took 3947 micro-seconds
+Searching for names that start with 'Ba' returned 12348 results and took 756 micro-seconds
+Searching for names that start with 'Jo' returned 12864 results and took 828 micro-seconds
+Searching for names that start with 'Smi' returned 7788 results and took 500 micro-seconds
+Searching for names that start with 'Bra' returned 2844 results and took 168 micro-seconds
+Searching for names that start with 'P' returned 29388 results and took 2010 micro-seconds
+Searching for names that start with 'Perkins' returned 528 results and took 46 micro-seconds
 
 
 If you have any issues getting started or questions please don't hesistate to reach out to me. I am happy to also help you setup this project in Intellij and walk you through how to run it.
